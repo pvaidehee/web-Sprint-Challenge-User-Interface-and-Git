@@ -355,12 +355,11 @@ footer nav a {
     border:1px;
     margin:10px 300px;
     padding:20px;
-
 }
 .footer {
-    border:3px solid purple;
-    width: 100%;
+    width: 60%;
     background: black;
+    margin-left:300px;
 }
 
 .footer nav {
@@ -375,5 +374,4 @@ footer nav a {
 .footer nav a {
     color: white;
     text-decoration: none;
-    padding-right: 200px;
 }
