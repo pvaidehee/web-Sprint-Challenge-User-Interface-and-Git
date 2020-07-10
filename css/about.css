@@ -2,6 +2,6 @@
 /*This page has all the css styling for the page that is different to that of the index.html and index.css*/
 
 
-.aboutsection div h2 p{
-    border:1px solid black;
+.about-page{
+    border:50px solid black;
 }
