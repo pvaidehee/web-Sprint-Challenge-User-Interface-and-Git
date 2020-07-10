@@ -69,6 +69,7 @@ p {
     border:1px;
     display:flex;
     padding-left: 275px;
+    padding-top:20px;
     justify-content: space-around;
 }
     .header nav{
@@ -87,11 +88,17 @@ p {
 .jumboimg{
     padding: 10px 300px;
 }
+.jumboaboutimg{
+    padding : 10px 300px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+.cointainer .about-page{
+border:10px solid black;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
