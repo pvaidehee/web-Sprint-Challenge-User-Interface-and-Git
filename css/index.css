@@ -269,15 +269,111 @@ footer nav a {
     padding-left:24px;
 }
 .infosection div{
-    border:1px solid black;
+    border:1px;
 }
-.infosection img{
-    width:400px;
+.infosection .strategy{
+    border:1px;
+    border-bottom: 1px dotted black;
+    margin-left: 220px;    
+}
+.strategy div{
+    border: 1px;
+    width:370px;
+    padding:10px;
+}
+.strategy button{
+    border:1px solid black;
+    margin-top:20px;
+    margin-bottom: 10px;;
+    padding:15px;
+    border-radius: 20px;
+    background-color: white;
+}
+.infosection .homework{
+    border:1px;
+    border-bottom: 1px dotted black;
+    margin-right: 200px;    
+}
+.homework div{
+    border: 1px;
+    width:370px;
+    padding:10px;
+}
+.homework button{
+    border:1px solid black;
+    margin-top:20px;
+    margin-bottom: 10px;;
+    padding:15px;
+    border-radius: 20px;
+    background-color: white;
+}
+.infosection .places{
+    border:1px;
+    border-bottom: 1px dotted black;
+    margin-left: 220px;    
+}
+.places div{
+    border: 1px;
+    width:370px;
+    padding-top: 10px;
+}
+.places button{
+    border:1px solid black;
+    margin-top:20px;
+    margin-bottom: 10px;;
+    padding:15px;
+    border-radius: 20px;
+    background-color: white;
+}
+.infosection .collab{
+    border:1px;
+    border-bottom: 1px dotted black;
+    margin-right: 200px;    
+}
+.collab div{
+    border: 1px;
+    width:370px;
+    padding-top: 10px;
+}
+.collab button{
+    border:1px solid black;
+    margin-top:20px;
+    margin-bottom: 10px;;
+    padding:15px;
+    border-radius: 20px;
+    background-color: white;
 }
 .infosection{
+    border:1px;
+    width:-500px;
+    padding:10px;
     display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align:left;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.worksection{
+    border:1px;
+    margin:10px 300px;
+    padding:20px;
+
+}
+.footer {
+    border:3px solid purple;
+    width: 100%;
+    background: black;
+}
+
+.footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.footer nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 200px;
 }
