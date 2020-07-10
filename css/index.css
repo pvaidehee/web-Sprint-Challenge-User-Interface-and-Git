@@ -66,12 +66,23 @@ p {
     line-height: 1.4;
 }
 .header{
+    border:1px;
     display:flex;
+    padding-left: 200px;
     justify-content: space-evenly;
 }
-.header nav a{
-   padding:20px;
-   margin-right: 40px;
+    .header nav{
+        padding-top:20px;
+        padding-right:140px;
+    }
+    .header nav a{
+        border:1px;
+       padding-top:30px;
+       margin-right: 40px;
+
+}
+.jumboimg{
+    padding: 10px 300px;
 }
 .container {
     width: 800px;
