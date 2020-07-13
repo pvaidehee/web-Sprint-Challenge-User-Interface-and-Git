@@ -65,12 +65,36 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+.header{
+    border:1px;
+    display:flex;
+    padding-left: 275px;
+    padding-top:20px;
+    justify-content: space-around;
+}
+    .header nav{
+        padding-top:20px;
+        padding-right:200px;
+    }
+    .header nav a{
+        border:1px;
+       padding-top:30px;
+       margin-right: 80px;
+       text-decoration: none;
+       color:black;
+       
 
+}
+.jumboimg{
+    padding: 10px 300px;
+}
+.jumboaboutimg{
+    padding : 10px 300px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,17 +125,106 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -141,6 +254,124 @@ footer nav {
 }
 
 footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Here is the code for about.html that isn't there in index.html*/
+
+.about-page{
+    padding:30px;
+    border:1px;
+    border-bottom: 1px dotted black;
+}
+.aboutsection{
+    padding-left:24px;
+}
+.infosection div{
+    border:1px;
+}
+.infosection .strategy{
+    border:1px;
+    border-bottom: 1px dotted black;
+    margin-left: 220px;    
+}
+.strategy div{
+    border: 1px;
+    width:370px;
+    padding:10px;
+}
+.strategy button{
+    border:1px solid black;
+    margin-top:20px;
+    margin-bottom: 10px;;
+    padding:15px;
+    border-radius: 20px;
+    background-color: white;
+}
+.infosection .homework{
+    border:1px;
+    border-bottom: 1px dotted black;
+    margin-right: 200px;    
+}
+.homework div{
+    border: 1px;
+    width:370px;
+    padding:10px;
+}
+.homework button{
+    border:1px solid black;
+    margin-top:20px;
+    margin-bottom: 10px;;
+    padding:15px;
+    border-radius: 20px;
+    background-color: white;
+}
+.infosection .places{
+    border:1px;
+    border-bottom: 1px dotted black;
+    margin-left: 220px;    
+}
+.places div{
+    border: 1px;
+    width:370px;
+    padding-top: 10px;
+}
+.places button{
+    border:1px solid black;
+    margin-top:20px;
+    margin-bottom: 10px;;
+    padding:15px;
+    border-radius: 20px;
+    background-color: white;
+}
+.infosection .collab{
+    border:1px;
+    border-bottom: 1px dotted black;
+    margin-right: 200px;    
+}
+.collab div{
+    border: 1px;
+    width:370px;
+    padding-top: 10px;
+}
+.collab button{
+    border:1px solid black;
+    margin-top:20px;
+    margin-bottom: 10px;;
+    padding:15px;
+    border-radius: 20px;
+    background-color: white;
+}
+.infosection{
+    border:1px;
+    width:-500px;
+    padding:10px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.worksection{
+    border:1px;
+    margin:10px 300px;
+    padding:20px;
+}
+.footer {
+    width: 60%;
+    background: black;
+    margin-left:300px;
+}
+
+.footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.footer nav a {
     color: white;
     text-decoration: none;
 }
